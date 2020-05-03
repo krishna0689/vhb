@@ -84,5 +84,65 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
+        <div class="container slider">
+            <img src="assets/images/bus.png" class="img-responsive">
+            <div class="row">
+                <div class="col-lg-12 rec">
+                    <div class="book-div wow animated fadeInUp delay-3s">
+                        <div class="container">
+                            <div class="card">
+                                <div class="tab-content">
+                                    <div class="book">       
+                                        <div class="book-inner">
+                                            <div role="tabpanel" class="tab-pane" id="profile">
+                                                <div class="book">       
+                                                    <div class="book-inner">
+                                                        <form>
+                                                            <div class="form">
+                                                                <div class="col-xs-12">
+                                                                    <select id="frm_id">
+                                                                        <option value="" selected="">From</option>
+                                                                        <option value="">Arumuganeri</option>
+                                                                        <option value="">Aruppukottai Bypass</option>
+                                                                        <option value="">Avinashi</option>
+                                                                    </select>
+
+                                                                    <div class="swap-icon">
+                                                                        <a href="javascript:;"><img src="assets/images/swap.png"></a>
+                                                                    </div>                            
+                                                                </div>
+                                                                <br>
+                                                                <div class="col-xs-12">
+                                                                    <select id="to_id">
+                                                                        <option selected="selected" value="">To</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-xs-12">
+                                                                    <label class="cal-div"> 
+                                                                        <input type="text" class="calendar" id="srch_date" name="srch_date" readonly="readonly" placeholder="Journey Date">
+                                                                    </label>
+                                                                </div>
+                                                                <div class="col-xs-12">
+                                                                    <label class="cal-div"> 
+                                                                        <input type="text" class="calendar" id="return_date" name="return_date" readonly="readonly" placeholder="Return Date">
+                                                                    </label>
+                                                                </div>
+                                                                <div class="col-xs-12" align="center">
+                                                                    <input type="button" value="Search" class="search" id="btn-search" onclick="init_search();">
+                                                                </div>
+
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>
